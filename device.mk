@@ -48,6 +48,8 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.build.characteristics=tablet \
     ro.product.first_api_level=28 \
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    qemu.hw.mainkeys=0
 
 PRODUCT_PACKAGES += \
     fstab.mt8168 \
@@ -93,4 +95,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/etc/multi_init.rc:vendor/etc/init/hw/multi_init.rc \
     $(LOCAL_PATH)/etc/fstab.mt8168:vendor/etc/fstab.mt8168 \
     $(LOCAL_PATH)/etc/ueventd.rc:vendor/ueventd.rc \
+    $(LOCAL_PATH)/TouchPanel/Wacom_I2C_AES.idc:system/usr/idc/Wacom_I2C_AES.idc \
+    $(LOCAL_PATH)/TouchPanel/Wacom_I2C_Digitizer.idc:system/usr/idc/Wacom_I2C_Digitizer.idc \
+    $(LOCAL_PATH)/TouchPanel/Wacom_I2C_TOUCH.idc:system/usr/idc/Wacom_I2C_TOUCH.idc \
+
 

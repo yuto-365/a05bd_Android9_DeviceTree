@@ -482,7 +482,6 @@ vendor/bin/atcid
 vendor/bin/audiocmdservice_atci
 vendor/bin/autobt
 vendor/bin/btaddr
-vendor/bin/factory
 vendor/bin/gsm0710muxd
 vendor/bin/jpegtool
 vendor/bin/kisd
@@ -948,3 +947,5 @@ vendor/lib/libtinycompress.so
 vendor/lib64/libtinycompress.so
 vendor/lib64/libpixelflinger.so
 vendor/lib/libpixelflinger.so
+vendor/lib64/libpq_cust_base.so
+vendor/lib/libpq_cust_base.so
