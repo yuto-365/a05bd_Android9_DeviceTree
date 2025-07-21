@@ -9,6 +9,8 @@ lib64/vndk-28/android.hardware.audio.common@2.0-util.so
 lib64/vndk-28/android.hardware.audio.common@4.0-util.so
 vendor/bin/hw/android.hardware.audio@4.0-service-mediatek
 vendor/etc/init/android.hardware.audio@4.0-service-mediatek.rc
+vendor/lib64/hw/android.hardware.audio@4.0-impl-mediatek.so
+vendor/lib/hw/android.hardware.audio@4.0-impl-mediatek.so
 vendor/lib/hw/android.hardware.audio.effect@4.0-impl.so
 vendor/lib/hw/audio.primary.default.so
 vendor/lib/hw/audio.primary.mt8168.so
@@ -158,6 +160,8 @@ vendor/etc/audio_param/Volume_ParamUnitDesc.xml
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-mediatek
 vendor/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-mediatek.so
+vendor/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so
 vendor/lib/libbluetooth_mtk.so
 vendor/lib/libbt-vendor.so
 vendor/lib/libcustom_nvram.so
@@ -339,6 +343,8 @@ vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so
 # Light
 vendor/bin/hw/android.hardware.light@2.0-service-mediatek
 vendor/etc/init/android.hardware.light@2.0-service-mediatek.rc
+vendor/lib64/hw/android.hardware.light@2.0-impl-mediatek.so
+vendor/lib/hw/android.hardware.light@2.0-impl-mediatek.so
 vendor/lib/hw/lights.mt8168.so
 vendor/lib64/hw/lights.mt8168.so
 
@@ -880,3 +886,36 @@ vendor/res/images/lcd_test_02.png
 vendor/res/sound/ringtone.wav
 vendor/res/sound/testpattern1.wav
 vendor/ueventd.rc
+
+# 追加
+vendor/lib64/hw/vendor.mediatek.hardware.camera.security@1.0-impl.so
+vendor/lib64/libSonyIMX230PdafLibraryWrapper.so
+vendor/lib64/libSonyIMX338PdafLibraryWrapper.so
+vendor/lib64/libSonyIMX386PdafLibraryWrapper.so
+vendor/lib64/libSonyIMX519PdafLibraryWrapper.so
+vendor/lib64/libcamalgo.fdft.so
+vendor/lib64/libcamalgo.dngop.so
+vendor/lib64/libcamalgo.warp.so
+vendor/lib64/libfeature.face.so
+vendor/lib64/libfeature_3dnr.so
+vendor/lib64/libfeature_eis.so
+vendor/lib64/libfeature_fsc.so
+vendor/lib64/libfeature_lmv.so
+vendor/lib64/libfeature_rss.so
+vendor/lib64/libfft_vendor.so
+vendor/lib64/libhdrproc.so
+vendor/lib64/libmtkcam_pipelinemodel_capture.so
+vendor/lib64/libmtkcam_pipelinepolicy.so
+vendor/lib64/libstereoinfoaccessor_vsdof.so
+vendor/lib64/vendor.mediatek.hardware.atci@1.0.so
+vendor/lib64/vendor.mediatek.hardware.lbs@1.0.so
+vendor/lib64/vendor.mediatek.hardware.netdagent@1.0.so
+vendor/lib64/vendor.mediatek.hardware.power@1.1.so
+vendor/etc/audio_device.xml
+vendor/etc/audio_em.xml
+vendor/lib64/hw/android.hardware.sensors@1.0-impl-mediatek.so
+vendor/lib/modules/bt_drv.ko
+vendor/lib/modules/met.ko
+vendor/lib/modules/wlan_drv_gen4m.ko
+vendor/lib/modules/wmt_chrdev_wifi.ko
+vendor/lib/modules/wmt_drv.ko
