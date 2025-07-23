@@ -53,9 +53,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_PACKAGES += \
     fstab.mt8168 \
-    factory_init.connectivity.rc \
-    factory_init.project.rc \
-    factory_init.rc \
     init.ago.rc \
     init.connectivity.rc \
     init.modem.rc \
@@ -78,21 +75,18 @@ $(call inherit-product, vendor/sts/a05bd/a05bd-vendor.mk)
 
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/etc/factory_init.connectivity.rc:vendor/etc/init/hw/factory_init.connectivity.rc \
-    $(LOCAL_PATH)/etc/factory_init.project.rc:vendor/etc/init/hw/factory_init.project.rc \
-    $(LOCAL_PATH)/etc/factory_init.rc:vendor/etc/init/hw/factory_init.rc \
-    $(LOCAL_PATH)/etc/init.ago.rc:vendor/etc/init/hw/init.ago.rc \
-    $(LOCAL_PATH)/etc/init.connectivity.rc:vendor/etc/init/hw/init.connectivity.rc \
-    $(LOCAL_PATH)/etc/init.modem.rc:vendor/etc/init/hw/init.modem.rc \
-    $(LOCAL_PATH)/etc/init.mt8168.rc:vendor/etc/init/hw/init.mt8168.rc \
-    $(LOCAL_PATH)/etc/init.mt8168.usb.rc:vendor/etc/init/hw/init.mt8168.usb.rc \
-    $(LOCAL_PATH)/etc/init.project.rc:vendor/etc/init/hw/init.project.rc \
-    $(LOCAL_PATH)/etc/init.sensor_1_0.rc:vendor/etc/init/hw/init.sensor_1_0.rc \
-    $(LOCAL_PATH)/etc/meta_init.connectivity.rc:vendor/etc/init/hw/meta_init.connectivity.rc \
-    $(LOCAL_PATH)/etc/meta_init.modem.rc:vendor/etc/init/hw/meta_init.modem.rc \
-    $(LOCAL_PATH)/etc/meta_init.project.rc:vendor/etc/init/hw/meta_init.project.rc \
-    $(LOCAL_PATH)/etc/meta_init.rc:vendor/etc/init/hw/meta_init.rc \
-    $(LOCAL_PATH)/etc/multi_init.rc:vendor/etc/init/hw/multi_init.rc \
+    $(LOCAL_PATH)/etc/init.ago.rc:vendor/etc/init/init.ago.rc \
+    $(LOCAL_PATH)/etc/init.connectivity.rc:vendor/etc/init/init.connectivity.rc \
+    $(LOCAL_PATH)/etc/init.modem.rc:vendor/etc/init/init.modem.rc \
+    $(LOCAL_PATH)/etc/init.mt8168.rc:vendor/etc/init/init.mt8168.rc \
+    $(LOCAL_PATH)/etc/init.mt8168.usb.rc:vendor/etc/init/init.mt8168.usb.rc \
+    $(LOCAL_PATH)/etc/init.project.rc:vendor/etc/init/init.project.rc \
+    $(LOCAL_PATH)/etc/init.sensor_1_0.rc:vendor/etc/init/init.sensor_1_0.rc \
+    $(LOCAL_PATH)/etc/meta_init.connectivity.rc:vendor/etc/init/meta_init.connectivity.rc \
+    $(LOCAL_PATH)/etc/meta_init.modem.rc:vendor/etc/init/meta_init.modem.rc \
+    $(LOCAL_PATH)/etc/meta_init.project.rc:vendor/etc/init/meta_init.project.rc \
+    $(LOCAL_PATH)/etc/meta_init.rc:vendor/etc/init/meta_init.rc \
+    $(LOCAL_PATH)/etc/multi_init.rc:vendor/etc/init/multi_init.rc \
     $(LOCAL_PATH)/etc/fstab.mt8168:vendor/etc/fstab.mt8168 \
     $(LOCAL_PATH)/etc/ueventd.rc:vendor/ueventd.rc \
     $(LOCAL_PATH)/TouchPanel/Wacom_I2C_AES.idc:system/usr/idc/Wacom_I2C_AES.idc \
