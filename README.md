@@ -1,13 +1,5 @@
 # Android Device Tree for Benesse TAB-A05-BD (TAB-A05-BD)
-
-```
-#
-# Copyright (C) 2024 The LineageOS Project
-#
-# SPDX-License-Identifier: Apache-2.0
-#
-```
-
+---
 
 # ⚠️ このカスタムROMは Beta版 です ⚠️  
 本ROMは試験中のベータ版です。利用には十分な知識と注意が必要です。
