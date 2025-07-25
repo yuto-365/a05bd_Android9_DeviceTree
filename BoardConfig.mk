@@ -1,8 +1,3 @@
-#
-# Copyright (C) 2024 The LineageOS Project
-#
-# SPDX-License-Identifier: Apache-2.0
-#
 DEVICE_PATH := device/sts/a05bd
 
 USE_XML_AUDIO_POLICY_CONF := 1
